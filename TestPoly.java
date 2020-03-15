@@ -1,3 +1,5 @@
+
+
 public class TestPoly {
 
  public static void main(String[] argv) {
@@ -33,6 +35,21 @@ public class TestPoly {
   // Which toString() is called?
   // A. the toString() method in the Employee class
   System.out.println(p4);
+
+
+  
+    // In what cases does polymorphism work correctly for the lines below?
+    // Polymorphism works for the lines of 4, 5, 8, and 9.
+
+    // Employee e0 = new Employee ("Gullible Gus", "555-55-5678", 50000);
+    // Employee e1 = new Customer ("Gullible Gus", "555-55-5678", 5);
+    // Person e2 = new Employee("Zany Zoe", "112-12-1212");
+    // Person p11 = new Customer ("Gullible Gus", "555-55-5678", 5);
+    // Person p22 = (Person) e0;
+    // Customer c1 = (Person) p11;
+    // Customer c2 = p11;
+    // Person p33 = (Employee) e0;
+    // Person p44 = e0; 
 
  }
 }

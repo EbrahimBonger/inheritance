@@ -1,0 +1,4 @@
+Abstraction is a concept of abstracting data in the class by implementing 
+ a method that cannot be define but only can declere.
+	If defining a ne wmethod is neccessary, a new class should be created
+	that extends the abstract class and define its own method.
