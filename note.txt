@@ -1,0 +1,19 @@
+Customer and Employee both derived from Person.
+    You can derive as many subclasses as desired from a single class, but each class can
+    only have one parent.
+    
+Customer and Employee both define their own constructors.
+    These will be called instead of the parent constructor.
+
+The new constructor in Employee calls the constructor of the parent by using 
+the super(...) function.
+
+    This calls the constructor in the parent class that matches the passed arguments.
+    If used, super(...) must be the first line of the child’s constructor.
+    Think of it like you need to initialize the parent’s fields before you begin to initialize the child’s.
+    This is called constructor chaining
+
+The child classes can override methods in the parent class, such as toString()
+    The toString() function actually originates in the Object class, from which all others
+    derive. It is automatically called whenever an object needs to be turned into a string,
+    such as when you use an object in a println call.
