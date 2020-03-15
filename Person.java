@@ -1,24 +1,35 @@
-Public class Person {
+
+public class Person {
     //data
     String name;
     String ssn;
 
     //Constructor
-    Public Person(String name, String ssn){
+    public Person(String name, String ssn){
         this.name = name;
         this.ssn = ssn;
     }
 
-    Public Person(){
+    public Person(){
         name = ssn = "Not Initialized";
     }
 
     // Accessor
-    Public String getName(){
+    public String getName(){
         return name;
     }
 
-    Public String getSSN(){
-        return = ssn;
+    public String getSSN(){
+        return ssn;
+    }
+ 
+
+    public String toString(){
+        return "person: Name=" + name + ", ssn=" + ssn;
+    }
+
+    public static void main(String[] argv){
+        Person p = new Person("John","3132-2321-12312");
+        System.out.println(p);
     }
 }
